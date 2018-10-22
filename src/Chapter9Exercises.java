@@ -15,7 +15,6 @@ public class Chapter9Exercises {
         { Stock orcl = new Stock("ORCL","Oracle Corporation",34.5,34.35);
         orcl.getChangePercent();}
 
-        
 
 
 
