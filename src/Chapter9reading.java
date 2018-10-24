@@ -14,7 +14,7 @@ public class Chapter9reading {
             System.out.println("The elapsed time since Jan 1, 1970 is " + date.getTime() + " milliseconds");
             System.out.println(date.toString());
             System.out.println();
-
+//Testing Random, adding Math.random in the mix.
             Random random1 = new Random(3);
             System.out.print("From random1: "); for (int i = 0; i < 10; i++)
                 System.out.print(random1.nextInt(1000) + " ");
@@ -30,7 +30,7 @@ public class Chapter9reading {
             System.out.println();
 
             Scanner input = new Scanner(System.in);
-
+//Trying out Point2D
             System.out.print("Enter point1's x-, y-coordinates: ");
             double x1 = input.nextDouble();
             double y1 = input.nextDouble();

@@ -1,5 +1,7 @@
 import javafx.scene.shape.Circle;
 
+
+//Creating 2 diffrent test inside A.java, with subClasses/non public classes.
 class Test {
     int count;
     public static void main(String[] args) {  } public int getCount() { return count;  }
@@ -15,3 +17,6 @@ class Test {
     public static void method2() {System.out.println("What is radius " + c.getRadius());}
       static Circle c = new Circle();
 }
+
+
+
