@@ -47,6 +47,9 @@ public class Chapter9reading {
             System.out.println("The midpoint between p1 and p2 is " +
                     p1.midpoint(p2).toString());
         }
+
+
+
     }
 
 
