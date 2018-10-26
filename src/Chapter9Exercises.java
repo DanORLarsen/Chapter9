@@ -35,7 +35,7 @@ public class Chapter9Exercises {
           {StopWatch sorting = new StopWatch();
               int[] numbers = new int[100000];
               for (int i = 0; i < 100000; i++)
-              { numbers[i] = (int)(Math.random()*10); }
+              { numbers[i] = (int)(Math.random()*100); }
               sorting.start(); //Starting the StopWatch
               Arrays.sort(numbers); // Sorting Numbers
               sorting.stop(); //Ending StopWatch
