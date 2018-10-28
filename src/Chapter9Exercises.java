@@ -1,3 +1,4 @@
+import javafx.scene.paint.Color;
 import javafx.scene.paint.Stop;
 
 import java.util.Arrays;
@@ -44,6 +45,24 @@ public class Chapter9Exercises {
               System.out.println(numbers[3213] + " " + numbers[70000] + " " + numbers[99999]);
           }
 
+          if (choise == 8)
+              //This is the Fan class, with specified data fields and methods
+          { Fan fan1 = new Fan();
+              System.out.print("fan1: ");
+           fan1.setSpeed(Fan.HIGH);
+           fan1.setColor("YELLOW");
+           fan1.setRadius(10);
+           fan1.setOn(true);
+           fan1.toStrings();
+              System.out.println();
+
+           Fan fan2 = new Fan();
+              System.out.print("fan2: ");
+           fan2.setSpeed(Fan.MEDIUM);
+           fan2.toStrings();
+
+
+          }
 
 
  else
